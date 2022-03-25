@@ -19,7 +19,7 @@
 $(call inherit-product, device/xiaomi/gemini/device.mk)
 
 # Inherit some common evolutionX stuff.
-$(call inherit-product, vendor/spark/config/common.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Official spark
