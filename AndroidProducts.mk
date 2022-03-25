@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_gemini.mk
+    $(LOCAL_DIR)/spark_gemini.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_gemini-user \
-    evolution_gemini-userdebug \
-    evolution_gemini-eng
+    spark_gemini-user \
+    spark_gemini-userdebug \
+    spark_gemini-eng
