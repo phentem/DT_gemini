@@ -22,10 +22,13 @@ $(call inherit-product, device/xiaomi/gemini/device.mk)
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official spark
-ro.spark.maintainer=phentem
-SPARK_BUILD_TYPE := UNOFFICIAL
-WITH_GAPPS=true
+# Properties
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_BLUR := false
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := spark_gemini
