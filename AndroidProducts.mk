@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_gemini.mk
+    $(LOCAL_DIR)/superior_gemini.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_gemini-user \
-    evolution_gemini-userdebug \
-    evolution_gemini-eng
+    superior_gemini-user \
+    superior_gemini-userdebug \
+    superior_gemini-eng
